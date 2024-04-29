@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #6b6f6b; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #357a38;
+}
+
+/* CSS styles for odd and even rows */
+.odd-row {
+    background-color: #357ba6;
+}
+
+.even-row {
+    background-color: #FFA500;
+}
+
+/* CSS styles */
+body {
+    text-align: center; /* Center align the content within the body */
+}
+
+h1 {
+    text-align: center; /* Center align the heading */
+}
+
+p {
+    text-align: center; /* Center align the paragraph */
+}
+
+
+/* CSS styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Add spacing below the table */
+}
+
+th, td {
+    padding: 10px; /* Add spacing between table cells */
+}
+
+/* Styles for odd and even rows */
+
+/* Increase size of columns */
+th:first-child,
+td:first-child {
+    width: 10%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 15%; /* Adjust column widths as needed */
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 15%; /* Adjust column widths as needed */
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    width: 20%; /* Adjust column widths as needed */
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+    width: 20%; /* Adjust column widths as needed */
+}
+
+th:nth-child(6),
+td:nth-child(6) {
+    width: 10%; /* Adjust column widths as needed */
+}
+
+th:nth-child(7),
+td:nth-child(7) {
+    width: 10%; /* Adjust column widths as needed */
+}
